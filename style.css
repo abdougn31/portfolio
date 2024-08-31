@@ -697,7 +697,7 @@ img {
     
     }
 }
-@media (min-width:650px){
+/*@media (min-width:650px){
     header nav .links {
         position: absolute;
         top: 100%;
@@ -829,4 +829,4 @@ img {
         font-size: 30px;
     
     }
-}
+}*/
