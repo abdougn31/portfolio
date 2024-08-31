@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, width=device-width">
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@800&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sen:wght@800&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@700;800&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inder:wght@400&display=swap" />
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+
+</head>
+
+<body>
+    <section>
+        <header class="header">
+            <nav>
+
+                <div class="logo">
+                    <a href="">Port<samp>folio</samp></a>
+                </div>
+                <ul class="links">
+                    <li><a href="portfolio.html">Home</a></li>
+                    <li><a href="services.html">services</a></li>  
+                    <li><a href="index.html">Contact Us</a></li>
+                </ul>
+                <i id="btnmenu" class="fa-solid fa-bars"></i>
+            </nav>
+            </div>
+        </header>
+        <div class="desktop-1">
+            <div class="homedefault">
+                <h3>Hello it’s Me</h3>
+                <h1> Abdennour Gouni </h1>
+                <h2>And I’m <samp>a Web devaloper</samp> </h2>
+                
+                <p>
+                    My name is Abdennour Gouni, I'm a 22-year-old freelance web developer 
+                    with a passion for creating engaging and visually appealing websites. 
+                    I have recently graduated from the prestigious Ecole Polytechnique 
+                    de Montreal with a degree in Web Development. I have worked on various 
+                    projects, including e-commerce websites, mobile apps, and digital marketing
+                    campaigns. I am currently available for freelance projec
+                    ts and opportunities to collaborate with other talented developers.
+                   </p>
+                <button class="CV">Download CV</button>
+            </div>
+            <div class="icon-s">
+                <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-regular fa-envelope"></i></a>
+            </div>
+            <div class="div-img">
+                <img src="Group 1.png" alt="">
+            </div>
+        </div>
+
+        <div class="container">
+                    <h2>Our <samp>Services</samp></h2>
+            <div class="card__container">
+               <article class="card__article">
+                  <img src="im2.jpg" alt="image" class="card__img">
+   
+                  <div class="card__data">
+                     <span class="card__description">Html, Css</span>
+                     <h2 class="card__title">Front end dev</h2>
+                     <a href="#" class="card__button">Read More</a>
+                  </div>
+               </article>
+   
+               <article class="card__article">
+                  <img src="im2.jpg" alt="image" class="card__img">
+   
+                  <div class="card__data">
+                     <span class="card__description">Java scriot</span>
+                     <h2 class="card__title">Back end dev</h2>
+                     <a href="#" class="card__button">Read More</a>
+                  </div>
+               </article>
+   
+               <article class="card__article">
+                  <img src="im3.jpg" alt="image" class="card__img">
+   
+                  <div class="card__data">
+                     <span class="card__description">Figma, Adobe XD</span>
+                     <h2 class="card__title">UI/UX designer</h2>
+                     <a href="#" class="card__button">Read More</a>
+                  </div>
+               </article>
+            </div>
+         </div>
+         <div class="desktop-3">
+            <div class="content">
+              <div class="left-side">
+                <div class="address details">
+                  <i class="fas fa-map-marker-alt"></i>
+                  <div class="topic">Address</div>
+                  <div class="text-one">Oran</div>
+                  <div class="text-two">Oud Tlilat</div>
+                </div>
+                <div class="phone details">
+                  <i class="fas fa-phone-alt"></i>
+                  <div class="topic">Phone</div>
+                  <div class="text-one">+213776090834</div>
+                </div>
+                <div class="email details">
+                  <i class="fas fa-envelope"></i>
+                  <div class="topic">Email</div>
+                  <div class="text-one">abdougouni14@gmail.com</div>
+                  <div class="text-two">abdennourgouni31@gmail.com</div>
+                </div>
+              </div>
+              <div class="right-side">
+                <div class="topic-text">Contact Us</div>
+                <p>If you have any work from me or any types of quries related to my tutorial, you can send me message from here. It's my pleasure to help you.</p>
+              <form action="#">
+                <div class="input-box">
+                  <input type="text" placeholder="Enter your name">
+                </div>
+                <div class="input-box">
+                  <input type="text" placeholder="Enter your email">
+                </div>
+                <div class="input-box message-box">
+                  
+                </div>
+                <div class="button">
+                  <input type="button" value="Send Now" >
+                </div>
+              </form>
+            </div>
+            </div>
+          </div>
+
+
+
+    </section>
+    <section>
+        <script>
+            let btnmenu = document.getElementById("btnmenu");
+            let navlinks = document.querySelector(".links");
+
+            btnmenu.onclick = function () {
+                btnmenu.classList.toggle("fa-times");
+                navlinks.classList.toggle("active");
+            }
+        </script>
+    </section>
+</body>
+
+</html>
