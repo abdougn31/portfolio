@@ -447,14 +447,17 @@ img {
     font-family: Sen ;
     text-align: center;
   }
-  .content .right-side .topic-text p{
-    color: #000000;
-    font-family: Inter ;
-  }
+ .right-side p{
+    color: #fff;
+    font-family: inter;
+    line-height: 1.5;
+    text-align: center;
+ }
   .right-side .input-box{
     height: 50px;
     width: 100%;
-    margin: 12px 0;
+    margin: 14px 0;
+    display: flex;
   }
   .right-side .input-box input,
   .right-side .input-box textarea{
